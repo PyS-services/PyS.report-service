@@ -1,6 +1,7 @@
 app:
   port: 8092
   logging: debug
+  eureka: 8761
 
 server:
   port: ${app.port}
@@ -12,7 +13,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://eureka:@eureka-service:8761/eureka
+      defaultZone: http://eureka:@eureka-service:${app.eureka}/eureka/
 
 spring:
   application:
