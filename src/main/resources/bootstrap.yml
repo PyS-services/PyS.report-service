@@ -20,7 +20,7 @@ spring:
 
 logging:
   level:
-    com.pys.articulo: ${app.logging}
+    com.pys.report: ${app.logging}
     web: ${app.logging}
     org:
       springframework.cloud.config: ${app.logging}
