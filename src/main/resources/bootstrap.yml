@@ -19,6 +19,12 @@ spring:
   application:
     name: report-service
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+
 logging:
   level:
     com.pys.report: ${app.logging}
