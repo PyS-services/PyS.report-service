@@ -1,16 +1,18 @@
-# Changelog
+# Historial de Cambios
 
-Todos los cambios notables en este proyecto serán documentados en este archivo.
-
-## [0.0.1-SNAPSHOT] - 2024-12-06
-### Cambios
-- Actualización a Spring Boot 3.4.0
-- Actualización a Spring Cloud 2024.0.0
-- Actualización a SpringDoc 2.7.0
-
-## [0.0.0] - 2024-08-12
-### Mejoras
-- Mejoras en la configuración de bootstrap.yml
-- Corrección de la insignia del pipeline de CI
-
-*Nota: Las fechas y versiones anteriores a 2024-08-12 no están documentadas en el historial de git disponible.*
+## 0.0.2 (2025-06-29)
+- chore(deps): actualizar dependencias y documentación (f36b67b)
+- Upgrading versions spring boot 3.4.0 - spring cloud 2024.0.0 - springdoc 2.7.0 (5edd891)
+- Upgrading versions (3b73f3f)
+- Upgrading versiones (a85656a)
+- Update README.md (c3e8075)
+- Improving bootstrap.yml (1a15c63)
+- Pipeline changed (4fb4085)
+- Pipeline changed (72a8253)
+- Update README.md (537ddcc)
+- Configuring Github Actions (d4aaf4f)
+- Configuring Eurek Client (a914125)
+- Create maven-publish.yml (8150b60)
+- First commit (1b628cd)
+- First commit (374901a)
+- Initial commit (bf4917e)
